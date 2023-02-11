@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Queen Library</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='My-Files/Style-Files/Style-index.css'>
+    <script src='My-Files/Script-Files/Script-index.js'></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">Queen</div>
+  <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+  <li><a href="index.html">Home</a></li>
+  <li>
+            <label for="btn-1" class="show">Features +</label>
+            <a href="#">Features</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+  <li><a href="#The-Library">Library</a></li>
+  <li><a href="#Latest-AD">Latest AD</a></li>
+  </ul>
+  </li>
+  <li>
+            <label for="btn-2" class="show">Services +</label>
+            <a href="#">Services</a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+  <li>
+                <label for="btn-3" class="show">Library+</label>
+                <a href="#">Library <span class="fa fa-plus"></span></a>
+                <input type="checkbox" id="btn-3">
+                <ul>
+  <li><a href="My-Files/HTML-Pages/Books.html">Books</a></li>
+  <li><a href="My-Files/HTML-Pages/Novels.html">Novels</a></li>
+  <li><a href="My-Files/HTML-Pages/Magazines.html">Magazines</a></li>
+  
+  </ul>
+  </li>
+  <li><a href="#The-Library">The Library</a></li>
+  </ul>
+  </li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Contact-Action">Contact</a></li>
+  </ul>
+  </nav>
+  <script>
+          /Nav Menu/
+         $('.icon').click(function(){
+         $('span').toggleClass("cancel");
+      });
+  </script>
+
+
+<div class="container-slider" id="Latest-AD">
+    <div class="slider owl-carousel">
+      <div class="card">
+        <div class="img">
+<img src="My-Files/Multimedia-Files/Images-File/Drifts.jpg" alt=""></div>
+<div class="content">
+          <div class="title">
+            Drifts</div>
+<div class="sub-title">
+    Book by Kate Zambreno</div>
+<p>
+    One of our most formally ambitious writers returns with a sublime new fiction about a woman struggling to finish her overdue novel, as she becomes increasingly obsessed with the challenge of writing in the present...</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card">
+  <div class="img">
+<img src="My-Files/Multimedia-Files/Images-File/The Red Lotus.jpg" alt=""></div>
+<div class="content">
+    <div class="title">
+        The Red Lotus</div>
+<div class="sub-title">
+    Book by Chris Bohjalian</div>
+<p>
+    He writes muscular, clear, propulsive sentences. As suspenseful as it is, The Red Lotus is also unexpectedly moving - about friendship, about the connections between people and, about the love of parents for children...</p>
+<div class="btn">
+      <button>Read more</button>
+    </div>
+</div>
+</div>
+<div class="card">
+        <div class="img">
+<img src="My-Files/Multimedia-Files/Images-File/Digital HR Strategy.jpg" alt=""></div>
+<div class="content">
+          <div class="title">
+            Digital HR Strategy</div>
+<div class="sub-title">
+    Book by Soumyasanto Sen</div>
+<p>
+    Digital HR Strategy is crucial reading for all HR practitioners and leaders wanting to ensure that their organization adapts to this changing and increasingly competitive environment by creating a strategic approach for sustainable...</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card">
+        <div class="img">
+<img src="My-Files/Multimedia-Files/Images-File/Uncanny Valley.jpg" alt=""></div>
+<div class="content">
+          <div class="title">
+            Uncanny Valley</div>
+<div class="sub-title">
+    Book by Kate Zambreno</div>
+<p>
+    In this hyper-detailed, thoroughly engrossing memoir, tech journalist Anna Wiener narrates her coming-of-age in Silicon Valley during the early years of the startup boom. Yet Uncanny Valley is so much more than a memoir...</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+</div>
+</div>
+<script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+
+
+<div class="Main-Title" id="The-Library">The Library</div>
+
+<div class="Main-container">
+<div class="container-book">
+    <div class="card-book">
+      <div class="img">
+        <img src="My-Files/Multimedia-Files/Images-File/Novels.jpg">
+      </div>
+<div class="top-text">
+        <div class="name">
+            Novels</div>
+<p>
+  Police, Emotional, Realistic ...</p>
+</div>
+<div class="bottom-text">
+        <div class="text">
+            We have many interesting novels, and the library includes the latest and most beautiful international novels. What you are looking for is available to us.
+            <br>The Library of Novels contains over<br> 50,000 novels.</div>
+<div class="btn">
+          <a href="My-Files/HTML-Pages/Novels.html">Go to Novels Library</a>
+        </div>
+</div>
+</div>
+<div class="card-book">
+      <div class="img">
+        <img src="My-Files/Multimedia-Files/Images-File/Books.jpg">
+      </div>
+<div class="top-text">
+        <div class="name">
+            Books</div>
+<p>
+    Science Fiction, Mystery, Drama ...</p>
+</div>
+<div class="bottom-text"> 
+        <div class="text">
+            We own thousands of premium books, as well as many new books. Everything you are looking for will be found in our library of books...
+            <br>The Library of Books contains<br> 700,000 books</div>
+<div class="btn">
+          <a href="My-Files/HTML-Pages/Books.html">Go to Books Library</a>
+        </div>
+</div>
+</div>
+<div class="card-book">
+      <div class="img">
+        <img src="My-Files/Multimedia-Files/Images-File/Magazines.jpg">
+      </div>
+<div class="top-text">
+        <div class="name">
+            Magazines</div>
+<p>
+  Business, Scientific, Intellectual ...</p>
+</div>
+<div class="bottom-text">
+        <div class="text">
+            The latest magazine numbers are available to us in all fields. We also have local and international magazines.
+            <br>The magazine library contains<br> 10.000 magazines.</div>
+<div class="btn">
+          <a href="My-Files/HTML-Pages/Magazines.html">Go to Magazines Library</a>
+        </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="Main-Title" id="About">About Us</div>
+<div class="About-As">
+    <img class="Logo-img" src="My-Files/Multimedia-Files/Images-File/Library-Logo.png">
+    <div class="text-about">
+    <p class="text-titleA">Queen Electronic Library</p>
+    <p class="text-B">The library contains three offices (the library of books, the library of novels and the library of magazines). Each library contains many fields and contents.</p>
+    <p class="text-c">This Website has been Developed by Mytrexa at 2021</p>
+</div>
+</div>
+
+<div class="Main-Title" id="Contact-Action">Contact Us</div>
+<div class="Contact-Us">
+    <div class="middle">
+        <a class="btn-Contact" href="#Queen Library">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn-Contact" href="#Queen Library">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="btn-Contact" href="#Queen Library">
+          <i class="fab fa-google"></i>
+        </a>
+        <a class="btn-Contact" href="#Queen Library">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn-Contact" href="#Queen Library">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+
+</div>
+</body>
+</html>

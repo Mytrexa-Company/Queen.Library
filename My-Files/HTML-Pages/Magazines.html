@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Queen Magazines</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Style-Files/Style-Magazines.css'>
+    <script src='My-Files/Script-Files/Script-index.js'></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    
+    <script type="text/javascript" src="../Script-Files/jquery.js" ></script>
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">Queen</div>
+  <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+  <li><a href="../../index.html">Home</a></li>
+  <li>
+            <label for="btn-1" class="show">Features +</label>
+            <a href="#">Features</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+  <li><a href="#Magazines-Library">Magazines</a></li>
+  <li><a href="#Latest-AD">Latest AD</a></li>
+  </ul>
+  </li>
+  <li>
+            <label for="btn-2" class="show">Services +</label>
+            <a href="#">Services</a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+  <li>
+                <label for="btn-3" class="show">Library+</label>
+                <a href="#">Library <span class="fa fa-plus"></span></a>
+                <input type="checkbox" id="btn-3">
+                <ul>
+  <li><a href="Books.html">Books</a></li>
+  <li><a href="Novels.html">Novels</a></li>
+  <li><a href="#Magazines-Library">Magazines</a></li>
+  
+  </ul>
+  </li>
+  <li><a href="#The-Library">The Library</a></li>
+  </ul>
+  </li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Contact-Action">Contact</a></li>
+  </ul>
+  </nav>
+  <script>
+          /Nav Menu/
+         $('.icon').click(function(){
+         $('span').toggleClass("cancel");
+      });
+  </script>
+
+
+<div class="container-slider" id="Latest-AD">
+    <div class="slider owl-carousel">
+      <div class="card">
+        <div class="img">
+<img src="../Multimedia-Files/Images-File/Drifts.jpg" alt=""></div>
+<div class="content">
+          <div class="title">
+            Drifts</div>
+<div class="sub-title">
+    Book by Kate Zambreno</div>
+<p>
+    One of our most formally ambitious writers returns with a sublime new fiction about a woman struggling to finish her overdue novel, as she becomes increasingly obsessed with the challenge of writing in the present...</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card">
+  <div class="img">
+<img src="../Multimedia-Files/Images-File/The Red Lotus.jpg" alt=""></div>
+<div class="content">
+    <div class="title">
+        The Red Lotus</div>
+<div class="sub-title">
+    Book by Chris Bohjalian</div>
+<p>
+    He writes muscular, clear, propulsive sentences. As suspenseful as it is, The Red Lotus is also unexpectedly moving - about friendship, about the connections between people and, about the love of parents for children...</p>
+<div class="btn">
+      <button>Read more</button>
+    </div>
+</div>
+</div>
+<div class="card">
+        <div class="img">
+<img src="../Multimedia-Files/Images-File/Digital HR Strategy.jpg" alt=""></div>
+<div class="content">
+          <div class="title">
+            Digital HR Strategy</div>
+<div class="sub-title">
+    Book by Soumyasanto Sen</div>
+<p>
+    Digital HR Strategy is crucial reading for all HR practitioners and leaders wanting to ensure that their organization adapts to this changing and increasingly competitive environment by creating a strategic approach for sustainable...</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card">
+        <div class="img">
+<img src="../Multimedia-Files/Images-File/Uncanny Valley.jpg" alt=""></div>
+<div class="content">
+          <div class="title">
+            Uncanny Valley</div>
+<div class="sub-title">
+    Book by Kate Zambreno</div>
+<p>
+    In this hyper-detailed, thoroughly engrossing memoir, tech journalist Anna Wiener narrates her coming-of-age in Silicon Valley during the early years of the startup boom. Yet Uncanny Valley is so much more than a memoir...</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+</div>
+</div>
+<script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+
+
+<div class="Main-Title" id="Magazines-Library">Magazines Library</div>
+
+<div class="Main-container">
+
+  <div class="center">
+    <div class="front-face">
+      <div class="contents front">
+        <p>Magazines Library</p>
+        <span>Various and free Magazines</span>
+      </div>
+    </div>
+    <div class="back-face">
+      <div class="contents back">
+        <h2>Queen</h2>
+        <span>Electronic Library</span>
+        <div class="icons">
+          <img class="Logo-img" src="../Multimedia-Files/Images-File/Library-Logo.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Main-Title" id="The-Library">Magazines sections</div>
+<script>var MagazinesLibrary = new Audio();MagazinesLibrary.src = '../Multimedia-Files/Audio/Magazines-Library.mp3';</script>
+<div class="Type">
+  <br><br>
+  <div class="slide hi-slide">
+    <div class="hi-prev "></div>
+    <div class="hi-next "></div>
+    <ul>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File/Magazines/Intellectual-magazines.jpg"/></li>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File/Magazines/Men-magazines.jpg"/></li>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File/Magazines/Services-magazines.jpg"/></li>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File/Magazines/Women-magazines.jpg"/></li>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File//Magazines/Business-magazines.jpg"/></li>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File/Magazines/Children-magazines.jpg"/></li>
+      <li><img onclick="MagazinesLibrary.play()" src="../Multimedia-Files/Images-File/Magazines/Scientific-magazines.jpg"/></li>
+    </ul>
+  </div>
+
+  <script>
+    $('.slide').hiSlide();
+  </script>
+</div>
+
+
+
+
+<div class="Main-Title" id="About">About Us</div>
+<div class="About-As">
+    <img class="Logo-img" src="../Multimedia-Files/Images-File/Library-Logo.png">
+    <div class="text-about">
+    <p class="text-titleA">Queen Electronic Library</p>
+    <p class="text-B">The library contains three offices (the library of books, the library of novels and the library of magazines). Each library contains many fields and contents.</p>
+    <p class="text-c">This Website has been Developed by Mytrexa at 2021</p>
+</div>
+</div>
+
+<div class="Main-Title" id="Contact-Action">Contact Us</div>
+<div class="Contact-Us">
+    <div class="middle">
+        <a class="btn-Contact" href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn-Contact" href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="btn-Contact" href="#">
+          <i class="fab fa-google"></i>
+        </a>
+        <a class="btn-Contact" href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn-Contact" href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+
+</div>
+</body>
+</html>
